@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 
 const io = new Server(server, {
     cors: {
-        origin: 'http://localhost:5173',
+        origin: 'https://chatappfront-phi.vercel.app',
     },
 });
 
