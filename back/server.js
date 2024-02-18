@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 
 const io = new Server(server, {
     cors: {
-        origin: 'https://chatappfront-phi.vercel.app',
+        origin: 'https://chatapp-lojx6tudo-rajeev-kumar-singhs-projects.vercel.app/',
     },
 });
 
